@@ -29,7 +29,7 @@ function sunEquationToAnswer(){
     let equation = document.getElementById("eqInput").value
     //console.log(equation)
 
-    let inputQueue = equation.split(/(\D)/)
+    let inputQueue = equation.split(/(\D)/).filter(Boolean)
     //outputQueue needs to be ready for compute right away. Also called postfix done.
     let outputQueue = []
     let computeStack = []
