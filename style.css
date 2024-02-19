@@ -73,3 +73,9 @@ input:hover {
 #outputForm {
     font-size: 22pt;
 }
+
+#chocolateBox{
+    width: 300px;
+    box-shadow: 0px 0px 5px black;
+    margin: 32px;
+}
