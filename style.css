@@ -73,3 +73,19 @@ input:hover {
 #outputForm {
     font-size: 22pt;
 }
+
+#chocolateBox{
+    width: 300px;
+    box-shadow: 0px 0px 5px black;
+    margin: 32px;
+}
+
+.desc-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.desc-container p {
+    text-align: left;
+    margin: 16px;
+}
