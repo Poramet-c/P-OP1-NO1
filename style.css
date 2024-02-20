@@ -89,3 +89,7 @@ input:hover {
     text-align: left;
     margin: 16px;
 }
+
+.desc-container img {
+    width: 100%;
+}
